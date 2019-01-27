@@ -1,0 +1,33 @@
+<br><br><br>
+<section class="features18 popup-btn-cards cid-rd1qw9TwPC" id="features18-9">    
+    <div class="container">
+        <section id="artikel"></section>
+        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">
+            ARTIKEL</h2>
+            <form action="{{baseurl}}" method="get">
+                <div class="input-group mb-3">
+                    <input type="hidden" name="page" value="news/filter">
+                    <input type="text" name="search" class="form-control" placeholder="Cari artikel">
+                    <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit">Cari</button>
+                    </div>
+                </div>
+            </form>
+        <h3 class="mbr-section-subtitle display-5 align-center mbr-fonts-style mbr-light"></h3>
+        <div class="media-container-row pt-5 ">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Judul</th>
+                        <th>Isi</th>
+                        <th>@</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{news}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

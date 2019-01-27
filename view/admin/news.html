@@ -1,0 +1,32 @@
+<br>
+<br>
+<br>
+<section class="cid-rd1qnHcFSt">
+  <div class="container">
+
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="{{baseurl}}admin.php?page=news">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{baseurl}}admin.php?page=logout">Logout</a>
+      </li>
+    </ul>
+    <br>
+    <a href="{{baseurl}}admin.php?page=news/add" class="btn btn-sm btn-primary">+ Tambah</a>
+    <br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Judul</th>
+                <th>Isi</th>
+                <th>@</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{news}}
+        </tbody>
+    </table>
+  </div>
+</section>
